@@ -1,0 +1,11 @@
+[user]
+	name = 40823120
+	email = 40823120@mde.tw
+[http]
+	proxy = [2001:288:6004:17::17]:3128
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
