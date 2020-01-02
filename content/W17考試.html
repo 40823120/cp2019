@@ -154,20 +154,32 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">USB << <a href='USB.html'>Previous</a> <a href='Runge Kutta.html'>Next</a> >> Runge Kutta<br /><h1>hello world</h1><p><span class="mce-preview-object mce-object-iframe" contenteditable="false" data-mce-object="iframe" data-mce-p-src="https://dartpad.dev/embed-inline.html?id=5be51288941d8b1a386815f6b44ee7ea"><iframe frameborder="0" height="600" src="https://dartpad.dev/embed-inline.html?id=5be51288941d8b1a386815f6b44ee7ea" width="600"></iframe><span class="mce-shim"></span></span></p><pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false">// Copyright 2015 the Dart project authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license
-// that can be found in the LICENSE file.
+    <div id="tipue_search_content">程式集 << <a href='程式集.html'>Previous</a> <br /><h1>W17考試</h1><!-- 透過 getDart(dirname) 取位於 downloads/dart_ex/ 目錄中 dirname 目錄中的 Dart 程式碼 --><script type="mce-no/type">
+function getDart(dirname){
+    source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823120&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+    document.getElementById("iframe").src = source ;
+}
 
-void main() {
-  for (int i = 0; i &lt; 4; i++) {
-    print('hello $i');
-  }
-}</pre><pre class="brush:dart;auto-links:false;toolbar:false" contenteditable="false"> void main() {
-  for (int i = 0; i &lt; 5; i++) {
-    print('hello $i');
-  }
-  print('hello 中文');
-}</pre><p><br/></p><p>dartpad:<a data-mce-href="https://mde.tw/dartpad/?id=84d051fb16258fc9bc3971f56bcfb284" href="https://mde.tw/dartpad/?id=84d051fb16258fc9bc3971f56bcfb284">https://mde.tw/dartpad/?id=84d051fb16258fc9bc3971f56bcfb284</a><br/><br/></p><p><br/></p><p>Gist:<a data-mce-href="http://mde.tw/dartpad/?idda466e554b82f0cd02a725bd61d4c73c" href="http://mde.tw/dartpad/?idda466e554b82f0cd02a725bd61d4c73c">http://mde.tw/dartpad/?idda466e554b82f0cd02a725bd61d4c73c</a></p><p><br/></p><p><br/></p><br />USB << <a href='USB.html'>Previous</a> <a href='Runge Kutta.html'>Next</a> >> Runge Kutta</div>
+function getHtmlDart(dirname){
+    source = "https://dartpad.github.io/embed-html.html?gh_owner=40823120&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function getFlutter(dirname){
+    source = "https://dartpad.github.io/embed-flutter.html?gh_owner=40823120&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
+document.getElementById("iframe").src = source ;
+}
+
+function largest(){
+document.getElementById("iframe").width = document.body.clientWidth ;
+document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
+}
+
+function original(){
+document.getElementById("iframe").width = 800 ;
+document.getElementById("iframe").height = 600 ;
+}
+</script><!-- 取 Dart 程式的按鈕 --><h4>純 Dart 程式</h4><p><button onclick="getDart('weight')">重量轉換</button></p><h4>Html 程式</h4><p><button onclick="getHtmlDart('weight1')">重量轉換</button> <!-- 內建放入的 Dart 原始碼 --></p><p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p><p><span class="mce-preview-object mce-object-iframe" contenteditable="false" data-mce-object="iframe" data-mce-p-id="iframe" data-mce-p-src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823120&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/rungekutta&amp;theme=dark"><iframe frameborder="0" height="600" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823120&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/rungekutta&amp;theme=dark" width="800"></iframe><span class="mce-shim"></span></span></p><p>JS程式 請輸入所要轉換的重量(lb或kg)<br/>以數字加上 lb 或 kg:<br/><br/><input data-mce-style="background-color: #fff;" id="weight" style="background-color: #fff;" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label><script data-mce-src="./../downloads/weight1.js" src="./../downloads/weight1.js" type="mce-no/type"></script><canvas height="200" id="canvas" width="380"></canvas> <button id="button">Clear Canvas</button> <button id="roc">Draw ROC</button> <button id="jp">Draw JP</button> <button id="france">Draw France</button> <button id="russia">Draw Russia</button><script data-mce-src="./../downloads/flag.js" src="./../downloads/flag.js" type="mce-no/type"></script></p><br />程式集 << <a href='程式集.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
