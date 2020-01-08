@@ -9,3 +9,9 @@
 	prune = false
 [rebase]
 	autoStash = false
+[merge]
+	tool = kdiff3
+[diff]
+	guitool = kdiff3
+[core]
+	editor = \"E:/計概課/GitExtensions/GitExtensions.exe\" fileeditor
